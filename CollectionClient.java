@@ -1,10 +1,9 @@
 import java.util.List;
 //import java.util.ArrayList;
-//import java.util.List;
 
 public class CollectionClient {
     public static void main(String[] args) throws Exception {
-        /*ArrayList<Collectable> collection = new ArrayList<Collectable>();
+        /*List<Collectable> collection = new ArrayList<Collectable>();
         collection.add(0,"Hazmat");
         collection.add(1,"RoboHodags");
         collection.add(2,"Supposable Thumbs");
