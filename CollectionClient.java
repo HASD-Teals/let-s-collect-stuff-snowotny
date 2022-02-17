@@ -4,7 +4,7 @@ import java.util.List;
 
 public class CollectionClient {
     public static void main(String[] args) throws Exception {
-        ArrayList<Collectable> collection = new ArrayList<Collectable>();
+     /*   ArrayList<Collectable> collection = new ArrayList<Collectable>();
         collection.add("Hazmat");
         collection.add("RoboHodags");
         collection.add("Supposable Thumbs");
@@ -26,6 +26,6 @@ public class CollectionClient {
         collection.add("Kinetic Polar Bears");
         System.out.println(collection);
         //Collectable collection.setSize(19);
-
+*/
     }
 }
