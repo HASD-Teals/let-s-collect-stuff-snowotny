@@ -60,8 +60,17 @@ public class Collectable {
         String answer = "color: " + this.color + "/n" + "size: " + this.size + "/n" + "condition: " + this.collection + "/n" + "cost: " + this.cost + "/n" + "rarity: " + this.rarity + "/n";
         return answer;
     }
-    public String equal(){
-        
-        return equal1;
+    public String equal(Object other){
+        boolean equal1 = true;
+        if(other instanceof Collectable){
+            Collectable otherCollectable = Collectable(other);
+            return (this.getSize() == otherCollectable.getSize()) && 
+            (this.getColor().equals(otherCollectable.getColor())) && 
+            (this.getCondition().equals(otherCollectable.getCondition())) && 
+            (this.getCost() == (otherCollectable.getCost())) &&
+            (this.getRarity().equals(othercCollectable.getRarity()));
+        }else{
+            return false;
+        }
     }
 }
