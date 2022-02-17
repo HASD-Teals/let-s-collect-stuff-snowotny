@@ -1,4 +1,5 @@
 public class Collectable {
+    public static Object collection;
     // Add collectable properties here
     private String color;
     private int size;
