@@ -4,8 +4,8 @@ import java.util.List;
 
 public class CollectionClient {
     public static void main(String[] args) throws Exception {
-        ArrayList<Collectable> collection = new ArrayList<Collectable>();
-        collection.add("Hazmat");
+        List<Collectable> collection = new List<Collectable>("Hazmat","RoboHodags","Supposable Thumbs", "Patronum Bots", "Viking Robotics", "Men in Kilts", "Great Scott", "Kracken Pinion", "Panicking Coconuts", "The Knack", "Incredible Thumbs", "TBD", "LaserTech", "Robodons","Techno G.O.A.T.S.", "Crimson Crusaders", "Chair Chasers", "Hortonville Robotics", "Kinetic Polar Bears");
+        /*collection.add("Hazmat");
         collection.add("RoboHodags");
         collection.add("Supposable Thumbs");
         collection.add("Patronum Bots");
@@ -23,7 +23,7 @@ public class CollectionClient {
         collection.add("Crimson Cruasders");
         collection.add("Chair Chasers");
         collection.add("Hortonville Robotics");
-        collection.add("Kinetic Polar Bears");
+        collection.add("Kinetic Polar Bears");*/
         System.out.println(collection);
         //Collectable collection.setSize(19);
 
