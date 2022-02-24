@@ -4,7 +4,7 @@ import java.util.List;
 
 public class CollectionClient {
     public static void main(String[] args) throws Exception {
-        List<Collectable> collection = new List<Collectable>("Hazmat","RoboHodags","Supposable Thumbs", "Patronum Bots", "Viking Robotics", "Men in Kilts", "Great Scott", "Kracken Pinion", "Panicking Coconuts", "The Knack", "Incredible Thumbs", "TBD", "LaserTech", "Robodons","Techno G.O.A.T.S.", "Crimson Crusaders", "Chair Chasers", "Hortonville Robotics", "Kinetic Polar Bears");
+        List<Collectable> collection = newList("Hazmat","RoboHodags","Supposable Thumbs", "Patronum Bots", "Viking Robotics", "Men in Kilts", "Great Scott", "Kracken Pinion", "Panicking Coconuts", "The Knack", "Incredible Thumbs", "TBD", "LaserTech", "Robodons","Techno G.O.A.T.S.", "Crimson Crusaders", "Chair Chasers", "Hortonville Robotics", "Kinetic Polar Bears");
         /*collection.add("Hazmat");
         collection.add("RoboHodags");
         collection.add("Supposable Thumbs");
