@@ -1,21 +1,21 @@
 public class Collectable {
-    public static Object collection;
     // Add collectable properties here
     private String color;
     private int size;
     private String condition;
     private double cost;
     private String rarity;
+    private String collection;
 
     // Add collectable constructors here
-    collectable(){
+    public void collectable(){
         this.color = "";
         this.size = 0;
         this.condition = "";
         this.cost = 0.0;
         this.rarity = "";
     }
-    collectable(String color, int size, String condition, double cost, String rarity){
+    public void collectable(String color, int size, String condition, double cost, String rarity){
         this.color = color;
         this.size = size;
         this.condition = condition;
@@ -61,7 +61,7 @@ public class Collectable {
         String answer = "color: " + this.color + "/n" + "size: " + this.size + "/n" + "condition: " + this.collection + "/n" + "cost: " + this.cost + "/n" + "rarity: " + this.rarity + "/n";
         return answer;
     }
-    public String equal(Object other){
+    public boolean equal(Object other){
         boolean equal1 = true;
         if(other instanceof Collectable){
             Collectable otherCollectable = Collectable(other);
@@ -69,9 +69,12 @@ public class Collectable {
             (this.getColor().equals(otherCollectable.getColor())) && 
             (this.getCondition().equals(otherCollectable.getCondition())) && 
             (this.getCost() == (otherCollectable.getCost())) &&
-            (this.getRarity().equals(othercCollectable.getRarity()));
+            (this.getRarity().equals(otherCollectable.getRarity()));
         }else{
             return false;
         }
+    }
+    private Collectable Collectable(Object other) {
+        return null;
     }
 }
